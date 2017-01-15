@@ -1,0 +1,11 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: minesweeper_development
+  host: localhost
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: minesweeper_test
+  host: localhost
