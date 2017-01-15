@@ -7,12 +7,16 @@ class GamesController < ApplicationController
   end
 
   def move
-    PlayMove.new.call(@game, params[:point])
+    PlayMove.new.call(@game, point_from_params)
   end
 
   private
 
   def load_game
     @game = Game.last
+  end
+
+  def point_from_params
+    {"x" => params[:point]["x"].to_i, "y" => params[:point]["y"].to_i }
   end
 end
