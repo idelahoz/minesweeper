@@ -30,7 +30,7 @@
 
 and
 
-[minesweeperihoz.herokuapp.com/games/move?format=json](https://minesweeperihoz.herokuapp.com/games/move?format=json&point[x]=6&point[y]=6)
+[minesweeperihoz.herokuapp.com/games/move?format=json&point[x]=6&point[y]=6](https://minesweeperihoz.herokuapp.com/games/move?format=json&point[x]=6&point[y]=6)
 
 
 for example
