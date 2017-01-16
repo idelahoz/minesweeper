@@ -26,14 +26,14 @@
 * the app is hosted at https://minesweeperihoz.herokuapp.com/. there's no index page but the endpoints mentioned above will work:
 
 
-```
-https://minesweeperihoz.herokuapp.com/games?format=json
-```
+[minesweeperihoz.herokuapp.com/games?format=json](https://minesweeperihoz.herokuapp.com/games?format=json)
+
 and
 
-```
-https://minesweeperihoz.herokuapp.com/games/move?format=json&point[x]=6&point[y]=6
-```  for example
+[minesweeperihoz.herokuapp.com/games/move?format=json](https://minesweeperihoz.herokuapp.com/games/move?format=json&point[x]=6&point[y]=6)
+
+
+for example
 
 * For the move feature I code the PlayMove services first calling non-existent methods from game. I this is the higher level method in the feature(after the controller method) so I wanted it to be pretty simple. Then I implemented what was needed from Game.
 * Game is a fat model. All logic can be extracted into a service object or maybe a decorator.
