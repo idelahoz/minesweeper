@@ -27,7 +27,9 @@
 
 
 https://minesweeperihoz.herokuapp.com/games/ 
+
 and
+
 https://minesweeperihoz.herokuapp.com/games/move?format=json&point[x]=6&point[y]=6  for example
 
 * For the move feature I code the PlayMove services first calling non-existent methods from game. I this is the higher level method in the feature(after the controller method) so I wanted it to be pretty simple. Then I implemented what was needed from Game.
