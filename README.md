@@ -1,7 +1,3 @@
-* I decided to build the library in javascript. I'm going to place it in the public library I don't want to deal with any cli-javascript framework or waste time figuring out issues with cross domain calls so I'll keep that simple.
-* Game model will have the warnings saved as an array using serialization.
-* Dealed with dumb issue about controller not finding the view for 30 min :(. "v1" part wasn't configured.
-* After getting games created I'm atacking the biggest problem wich is the "move" feature.
 * The api has 2 endpoints: a post to `games` which creates a new game and post to `games/move` which will play a move. 
 * The call `games/move` will do the move on the last created game and ir receives a point params of the form `{x: 1, y: 1}`
 * both calls return the game in the form: 
